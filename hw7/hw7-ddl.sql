@@ -95,6 +95,7 @@ INSERT INTO peopleskills (skills_id, people_id, date_acquired) VALUES
 (4, 1, '2023-02-15'),
 (5, 1, '2023-03-20'),
 (7, 2, '2022-05-15'),
+(7, 10, '2022-05-15'),
 (8, 2, '2023-01-02');
 
 # Section 8
