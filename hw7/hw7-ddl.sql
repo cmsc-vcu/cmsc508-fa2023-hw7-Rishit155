@@ -27,7 +27,9 @@ INSERT INTO skills (skill_id, skill_name, skill_description, skill_tag) VALUES
 (3, 'Design Elegance', 'Craft visually stunning and elegant designs.', 'Skill 3'),
 (4, 'Problem Solving', 'Solve complex problems with ease and creativity.', 'Skill 4'),
 (5, 'Communication Mastery', 'Master the art of effective communication.', 'Skill 5'),
-(6, 'Leadership Excellence', 'Lead with excellence and inspire teams.', 'Skill 6');
+(6, 'Leadership Excellence', 'Lead with excellence and inspire teams.', 'Skill 6'),
+(7, 'Time Management', 'Efficiently manage time and prioritize tasks for optimal productivity.', 'Skill 7'),
+(8, 'Critical Thinking', 'Develop well-reasoned and well-thought-out solutions to complex problems.', 'Skill 8');
 
 # Section 4
 CREATE TABLE people (
@@ -47,7 +49,14 @@ CREATE TABLE people (
 INSERT INTO people (people_id, people_last_name, people_date_joined) VALUES
 (1, 'Person 1', '2023-01-01'),
 (2, 'Person 2', '2023-02-01'),
-(3, 'Person 3', '2023-03-01');
+(3, 'Person 3', '2023-03-01'),
+(4, 'Person 4', '2023-03-02'),
+(5, 'Person 5', '2023-03-03'),
+(6, 'Person 6', '2023-01-01'),
+(7, 'Person 7', '2023-02-01'),
+(8, 'Person 8', '2023-05-01'),
+(9, 'Person 9', '2023-09-03'),
+(10, 'Person 10', '2023-10-01');
 
 # Section 6
 CREATE TABLE peopleskills (
